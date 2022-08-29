@@ -1,0 +1,3 @@
+= aero.minova.maven.parent
+
+Diese POM sollte als parent in jedem öffentlichen Maven-Projekt direkt oder indirekt verwendet werden.
