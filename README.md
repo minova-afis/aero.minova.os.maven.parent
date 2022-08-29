@@ -1,0 +1,1 @@
+# aero.minova.maven.parent
