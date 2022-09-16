@@ -1,4 +1,5 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>aero.minova</groupId>
     <artifactId>maven.parent</artifactId>
@@ -122,10 +123,10 @@
             </build>
         </profile>
         <profile>
-            <id>repo-github</id>
+            <id>repo-os-github</id>
             <distributionManagement>
                 <repository>
-                    <id>github</id>
+                    <id>os-github</id>
                     <name>GitHub Minova Parent Apache Maven Packages</name>
                     <url>https://maven.pkg.github.com/minova-afis/aero.minova.maven.parent</url>
                 </repository>
@@ -153,9 +154,12 @@
                 </property>
             </activation>
             <properties>
-                <sonar.dependencyCheck.htmlReportPath>${project.basedir}/target/dependency-check-report.html</sonar.dependencyCheck.htmlReportPath>
-                <sonar.dependencyCheck.jsonReportPath>${project.basedir}/target/dependency-check-report.json</sonar.dependencyCheck.jsonReportPath>
-                <sonar.dependencyCheck.xmlReportPath>${project.basedir}/target/dependency-check-report.xml</sonar.dependencyCheck.xmlReportPath>
+                <sonar.dependencyCheck.htmlReportPath>${project.basedir}/target/dependency-check-report.html
+                </sonar.dependencyCheck.htmlReportPath>
+                <sonar.dependencyCheck.jsonReportPath>${project.basedir}/target/dependency-check-report.json
+                </sonar.dependencyCheck.jsonReportPath>
+                <sonar.dependencyCheck.xmlReportPath>${project.basedir}/target/dependency-check-report.xml
+                </sonar.dependencyCheck.xmlReportPath>
                 <sonar.dynamicAnalysis>reuseReports</sonar.dynamicAnalysis>
                 <sonar.java.coveragePlugin>jacoco</sonar.java.coveragePlugin>
                 <sonar.java.source>${java.version}</sonar.java.source>
@@ -258,7 +262,7 @@
                     <groupId>org.eclipse.m2e</groupId>
                     <artifactId>lifecycle-mapping</artifactId>
                     <version>1.0.0</version>
-                    <configuration />
+                    <configuration/>
                 </plugin>
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
