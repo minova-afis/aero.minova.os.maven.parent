@@ -126,7 +126,7 @@
             <id>repo-os-github</id>
             <distributionManagement>
                 <repository>
-                    <id>os-github</id>
+                    <id>repo-os-github</id>
                     <name>GitHub Minova Parent Apache Maven Packages</name>
                     <url>https://maven.pkg.github.com/minova-afis/aero.minova.maven.parent</url>
                 </repository>

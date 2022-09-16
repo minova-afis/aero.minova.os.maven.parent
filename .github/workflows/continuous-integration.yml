@@ -21,7 +21,7 @@ jobs:
       - name: Build
         run: |
           cd $GITHUB_WORKSPACE
-          mvn clean verify -P repo-github -Dusername=$GITHUB_ACCESS_TOKEN
+          mvn clean verify -P repo-os-github -Dusername=$GITHUB_ACCESS_TOKEN
         env:
           MAVEN_USERNAME: ${{ secrets.MINOVA_GITHUB_MAVEN_DEPENDENCIES_USERNAME }}
           MAVEN_PASSWORD: ${{ secrets.MINOVA_GITHUB_MAVEN_DEPENDENCIES_TOKEN }}
