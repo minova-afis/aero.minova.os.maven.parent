@@ -1,6 +1,6 @@
 ++++
 <a href="https://www.minova.de/" >
-<img src="https://www.minova.de/files/Minova/Ueber_uns/minova-logo-105.svg" alt="logo" align="right"/>
+<a href="https://api.reuse.software/info/github.com/minova-afis/aero.minova.open.source.maven.parent"><img src="https://www.minova.de/files/Minova/Ueber_uns/minova-logo-105.svg" alt="logo" align="right"/></a>
 </a>
 ++++
 
