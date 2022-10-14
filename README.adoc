@@ -6,6 +6,14 @@
 
 = Minova Open Source Maven Parent
 
+++++
+<p align="left">
+  <img src="https://api.reuse.software/badge/github.com/minova-afis/aero.minova.open.source.maven.parent">
+  <img src="https://img.shields.io/badge/license-EPL%202.0-green">
+  <img src="https://github.com/minova-afis/aero.minova.open.source.maven.parent/actions/workflows/continuous-integration.yml/badge.svg">
+</p>
+++++
+
 Diese POM sollte als parent in jedem öffentlichen Maven-Projekt direkt oder indirekt verwendet werden.
 Open-Source m2-Releases müssen auch link:https://github.com/orgs/minova-afis/packages?repo_name=aero.minova.open.source.maven.parent[hier] veröffentlicht werden.
 
