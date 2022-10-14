@@ -1,6 +1,6 @@
 ++++
 <a href="https://www.minova.de/" >
-<a href="https://api.reuse.software/info/github.com/minova-afis/aero.minova.open.source.maven.parent"><img src="https://www.minova.de/files/Minova/Ueber_uns/minova-logo-105.svg" alt="logo" align="right"/></a>
+<img src="https://www.minova.de/files/Minova/Ueber_uns/minova-logo-105.svg" alt="logo" align="right"/>
 </a>
 ++++
 
@@ -8,7 +8,7 @@
 
 ++++
 <p align="left">
-  <img src="https://api.reuse.software/badge/github.com/minova-afis/aero.minova.open.source.maven.parent">
+  <a href="https://api.reuse.software/info/github.com/minova-afis/aero.minova.open.source.maven.parent"><img src="https://api.reuse.software/badge/github.com/minova-afis/aero.minova.open.source.maven.parent"></a>
   <img src="https://img.shields.io/badge/license-EPL%202.0-green">
   <img src="https://github.com/minova-afis/aero.minova.open.source.maven.parent/actions/workflows/continuous-integration.yml/badge.svg">
 </p>
