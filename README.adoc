@@ -41,7 +41,7 @@ Upstream-Contact: MINOVA Information Services GmbH <service@minova.de>
 Source: <Link zum Projekt>
 ----
 
-Als Copyright/Uhrheber-Angaber kann folgendes in der `reuse/dep5` verwendet werden:
+Als Copyright/Uhrheber-Angaber kann folgendes in der `.reuse/dep5` verwendet werden:
 
 ----
 Copyright: Project Contributors
@@ -54,4 +54,14 @@ Als Copyright/Uhrheber-Angaber kann folgendes in den einzelnen Source-Code-Datei
 SPDX-FileCopyrightText: 2022 Project Contributors
 
 SPDX-License-Identifier: EPL-2.0
+----
+
+Man kann sich die REUSE-Konformität einfach über folgendes in der `.reuse/dep5` machen,
+aber eigentlich sollte man in jeder Datei die Lizenz-Daten angeben,
+wenn möglich.
+
+----
+Files: *
+Copyright: Project Contributors
+License: EPL-2.0
 ----
