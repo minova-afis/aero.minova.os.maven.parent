@@ -1,3 +1,9 @@
+++++
+<a href="https://www.minova.de/" >
+<img src="https://www.minova.de/files/Minova/Ueber_uns/minova-logo-105.svg" alt="logo" align="right"/>
+</a>
+++++
+
 = aero.minova.maven.parent
 
 Diese POM sollte als parent in jedem öffentlichen Maven-Projekt direkt oder indirekt verwendet werden.
