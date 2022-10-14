@@ -21,7 +21,7 @@ Open-Source m2-Releases müssen auch link:https://github.com/orgs/minova-afis/pa
 
 Alle Open-Source-Projekte der Minova sollten der link:https://reuse.software/de/[REUSE-Empfehlung] bzgl. der Lizenzdaten entsprechen.
 
-Mit folgende Schritten erreicht man die Konformität (In diesem Beispiel wird Linux als Betriebssystem verwendet):
+Mit folgende Schritten erreicht man die Konformität (In diesem Beispiel wird Linux über WSL als Betriebssystem verwendet):
 
 [source, bash]
 ----
