@@ -52,7 +52,6 @@ Als Copyright/Uhrheber-Angaber kann folgendes in den einzelnen Source-Code-Datei
 
 ----
 SPDX-FileCopyrightText: 2022 Project Contributors
-
 SPDX-License-Identifier: EPL-2.0
 ----
 
