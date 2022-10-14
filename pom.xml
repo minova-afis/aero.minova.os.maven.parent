@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>aero.minova</groupId>
     <artifactId>open.source.maven.parent</artifactId>
-    <version>12.0.4</version>
+    <version>12.0.5-SNAPSHOT</version>
     <!-- Alles was nicht Teil der Basis-Konfiguration ist, wird in Profile aufgeteilt,
         damit klar ist, was für eine gewisse Funktionalität notwendig ist. -->
     <packaging>pom</packaging>
@@ -14,7 +14,7 @@
     </properties>
     <scm>
         <connection>scm:git:https://github.com/minova-afis/aero.minova.open.source.maven.parent.git</connection>
-      <tag>v12.0.4</tag>
+      <tag>HEAD</tag>
   </scm>
     <profiles>
         <!-- See https://stackoverflow.com/questions/5309379/how-to-keep-maven-profiles-which-are-activebydefault-active-even-if-another-prof -->
