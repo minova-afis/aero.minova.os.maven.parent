@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>aero.minova</groupId>
-    <artifactId>maven.parent</artifactId>
+    <artifactId>open.source.maven.parent</artifactId>
     <version>12.0.4-SNAPSHOT</version>
     <!-- Alles was nicht Teil der Basis-Konfiguration ist, wird in Profile aufgeteilt,
         damit klar ist, was für eine gewisse Funktionalität notwendig ist. -->
@@ -13,7 +13,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
     <scm>
-        <connection>scm:git:https://github.com/minova-afis/aero.minova.maven.parent.git</connection>
+        <connection>scm:git:https://github.com/minova-afis/aero.minova.open.source.maven.parent.git</connection>
       <tag>HEAD</tag>
   </scm>
     <profiles>
@@ -128,7 +128,7 @@
                 <repository>
                     <id>github</id>
                     <name>GitHub Minova Parent Apache Maven Packages</name>
-                    <url>https://maven.pkg.github.com/minova-afis/aero.minova.maven.parent</url>
+                    <url>https://maven.pkg.github.com/minova-afis/aero.minova.open.source.maven.parent</url>
                 </repository>
             </distributionManagement>
             <build>
@@ -295,7 +295,7 @@
     <repositories>
         <repository>
             <id>github</id>
-            <url>https://maven.pkg.github.com/minova-afis/aero.minova.maven.parent</url>
+            <url>https://maven.pkg.github.com/minova-afis/aero.minova.open.source.maven.parent</url>
             <releases>
                 <enabled>true</enabled>
             </releases>
@@ -320,7 +320,7 @@
                 <updatePolicy>never</updatePolicy>
             </releases>
             <id>github</id>
-            <url>https://maven.pkg.github.com/minova-afis/aero.minova.maven.parent</url>
+            <url>https://maven.pkg.github.com/minova-afis/aero.minova.open.source.maven.parent</url>
         </pluginRepository>
     </pluginRepositories>
     <reporting>

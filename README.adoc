@@ -4,7 +4,7 @@
 </a>
 ++++
 
-= aero.minova.maven.parent
+= aero.minova.open.source.maven.parent
 
 Diese POM sollte als parent in jedem öffentlichen Maven-Projekt direkt oder indirekt verwendet werden.
-Open source m2-Releases sollen auch link:https://github.com/orgs/minova-afis/packages?repo_name=aero.minova.maven.parent[hier] veröffentlicht werden.
+Open source m2-Releases sollen auch link:https://github.com/orgs/minova-afis/packages?repo_name=aero.minova.open.source.maven.parent[hier] veröffentlicht werden.

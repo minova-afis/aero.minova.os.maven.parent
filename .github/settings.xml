@@ -13,7 +13,7 @@
                 <repository>
                     <id>github</id>
                     <name>GitHub</name>
-                    <url>https://maven.pkg.github.com/minova-afis/aero.minova.maven.parent</url>
+                    <url>https://maven.pkg.github.com/minova-afis/aero.minova.open.source.maven.parent</url>
                 </repository>
             </repositories>
         </profile>
