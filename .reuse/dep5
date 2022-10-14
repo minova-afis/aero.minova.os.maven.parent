@@ -8,3 +8,7 @@ Source: https://github.com/minova-afis/aero.minova.open.source.maven.parent
 # Files: src/*
 # Copyright: $YEAR $NAME <$CONTACT>
 # License: ...
+
+Files: *
+Copyright: Project Contributors
+License: EPL-2.0
