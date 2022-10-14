@@ -21,3 +21,37 @@ Open-Source m2-Releases müssen auch link:https://github.com/orgs/minova-afis/pa
 
 Alle Open-Source-Projekte der Minova sollten der link:https://reuse.software/de/[REUSE-Empfehlung] bzgl. der Lizenzdaten entsprechen.
 
+Mit folgende Schritten erreicht man die Konformität (In diesem Beispiel wird Linux als Betriebssystem verwendet):
+
+[source, bash]
+----
+sudo apt install python3-pip # Pip3 installieren.
+pip3 install --user reuse # REUSE-Helper-Tool installieren.
+~/.local/bin/reuse init # Lizenz-Daten initialisieren.
+~/.local/bin/reuse lint # REUSE-Konformität lokal prüfen.
+# Daten commiten und pushen.
+----
+
+Nach der Initialisierung sollten folgende Daten in der `.reuse/dep.5` stehen:
+
+----
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: Minova Open Source Maven Parent
+Upstream-Contact: MINOVA Information Services GmbH <service@minova.de>
+Source: <Link zum Projekt>
+----
+
+Als Copyright/Uhrheber-Angaber kann folgendes in der `reuse/dep5` verwendet werden:
+
+----
+Copyright: Project Contributors
+License: EPL-2.0
+----
+
+Als Copyright/Uhrheber-Angaber kann folgendes in den einzelnen Source-Code-Dateien verwendet werden:
+
+----
+SPDX-FileCopyrightText: 2022 Project Contributors
+
+SPDX-License-Identifier: EPL-2.0
+----
