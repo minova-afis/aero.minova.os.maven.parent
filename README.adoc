@@ -41,7 +41,7 @@ Upstream-Contact: MINOVA Information Services GmbH <service@minova.de>
 Source: <Link zum Projekt>
 ----
 
-Als Copyright/Uhrheber-Angaber kann folgendes in der `.reuse/dep5` verwendet werden:
+Als Copyright/Uhrheber-Angabe kann folgendes in der `.reuse/dep5` verwendet werden:
 
 ----
 Copyright: Project Contributors
